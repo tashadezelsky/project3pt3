@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mermaids</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/companionship.css">
+    <script src="lib/airtable.browser.js"></script>
+    <script src="js/main.js"></script> 
+</head>
+<body>
+
+    <div class="bgimg-circle">
+        <img src="images/bg3circle.png">
+    </div>
+
+    <div class="bgimg-small">
+        <img src="images/bg3csmall.png">
+    </div>
+
+    <div class="wrapper">
+        <div class="menu">
+            <button onclick="myFunction()">Menu</button>
+            <div id="dropdown-menu">
+                <a href="https://tashadezelsky.github.io/project3pt1/">Dynamic</a>
+                <a href="https://tashadezelsky.github.io/project3pt2/">Isolation</a>
+                <a href="index.htm">Companionship</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("dropdown-menu");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+
+
+    <div class="cursor1">
+        <script type="text/javascript">
+            const cursor = document.querySelector(".cursor1");
+            window.addEventListener("mousemove", function(e){
+            cursor.style.left = (e.x-100)+"px";
+            cursor.style.top  = (e.y-100)+"px";
+            })
+        </script>
+        </div>
+
+    <div class="container">
+        <!-- <div class="gallery-container">
+                <div class="h4"></div>
+                <div class="h1></div>
+        </div>-->
+    </div>
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+             $(document).ready(function (){
+                $(window).scroll(function (event) {
+                    let scroll = $(this).scrollTop();
+                    let opacity = 1 - (scroll / 1000);
+                    if  (opacity >= 0) {
+                        $('.gallery-container').css('opacity', opacity);
+                    }
+                });
+            });
+    </script>-->
+
+    <div class="image-container">
+         <!-- <div class="image-circle">
+                <div class="img"></div>
+        </div>-->
+    </div>
+
+    <div class="bgimage1"></div>
+
+
+</div>
+
+</body>
+</html>
