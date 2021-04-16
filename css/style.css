@@ -10,7 +10,6 @@ body{
     color: white;
     background: url('../images/bg3.jpg') no-repeat fixed;
     background-size: cover;
-/*background-image: url("/Users/tashadezelsky/Documents/github/project3/bg1.png");*/
 }
 
 .container {
@@ -60,7 +59,6 @@ a:active {
     font-size: 3rem;
     text-align: center;
     height: auto;
-    /* justify-content: center; */
     align-self: center;
     line-height: 4rem;
     letter-spacing: -3px;
@@ -161,7 +159,6 @@ a:active {
     font-size: 2rem;
     text-align: center;
     height: auto;
-    /* justify-content: center; */
     align-self: center;
     line-height: 4rem;
     letter-spacing: -3px;
